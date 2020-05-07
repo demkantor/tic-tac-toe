@@ -1,12 +1,31 @@
 
 main {
+    margin: 3em;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 10em 10em 10em;
     grid-gap: 0px;
 }
   
 app-square {
     border: 1px gray solid;
-    height: 200px;
-    
+    height: 10em;
+    transition: ease-in-out 300ms;
+}
+
+app-square:hover{
+    transition: ease-in-out 300ms;
+    transform: scale(1.1);
+}
+
+button{
+    transition: ease-in-out 300ms;
+    background-color: maroon;
+    color: whitesmoke;
+    border-radius: .5em;
+    padding: 1em;
+}
+
+button:hover{
+    background-color: #530000;
+    transition: ease-in-out 300ms;
 }

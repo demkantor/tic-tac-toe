@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
     <button status="info" *ngIf="value == 'O'">{{ value }}</button>
   `,
   styles: [
-    'button { width: 100%; height: 100%; font-size: 5em; }'
+    'button { width: 100%; height: 100%; font-size: 5em; background: lightblue;}'
   ]
 })
 export class SquareComponent {

@@ -1,6 +1,6 @@
 {
-  "name": "tic-tac",
-  "version": "0.0.0",
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~9.1.3",
     "@angular/platform-browser-dynamic": "~9.1.3",
     "@angular/router": "~9.1.3",
+    "@angular/service-worker": "~9.1.3",
     "@nebular/eva-icons": "5.0.0",
     "@nebular/theme": "^5.0.0",
     "eva-icons": "^1.1.2",
